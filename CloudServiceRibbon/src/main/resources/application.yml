@@ -1,8 +1,8 @@
+server:
+  port: 8764
 spring:
-  profiles:
-    active: prod
   application:
-    name: service-hi
+    name: service-ribbon
 eureka:
   client:
     service-url:
